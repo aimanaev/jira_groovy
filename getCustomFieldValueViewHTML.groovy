@@ -8,8 +8,8 @@ import com.atlassian.jira.issue.fields.CustomField;
 import com.atlassian.jira.issue.fields.layout.field.FieldLayoutManager;
 import com.atlassian.jira.issue.fields.layout.field.FieldLayoutItem;
 
-MutableIssue issue = ComponentAccessor.getIssueManager().getIssueObject("issue key");
-CustomField customField = ComponentAccessor.getCustomFieldManager().getCustomFieldObjectByName("Bars_project");
+MutableIssue issue = ComponentAccessor.getIssueManager().getIssueObject("<issue key>");
+CustomField customField = ComponentAccessor.getCustomFieldManager().getCustomFieldObjectByName("<Custom field name>");
 Object valueOriginal = issue.getCustomFieldValue(customField);
 
 FieldLayoutManager fieldLayoytManager = ComponentAccessor.getComponent(FieldLayoutManager.class);
