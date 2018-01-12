@@ -8,6 +8,13 @@
 </thead>
 <tbody>
   <tr>
+    <td><a href="https://github.com/aleksey-imanaev/jira_groovy/blob/master/getCustomFieldValueViewHTML.groovy">getCustomFieldValueViewHTML.groovy</a></td> <td>Скрипт получения значения по представлению пользовательского поля запроса.
+<br><br>
+Использование:<br>
+- nFeed<br>
+- специфичное отображение пользовательского поля</td>
+  </tr>
+  <tr>
     <td><a href="https://github.com/aleksey-imanaev/jira_groovy/blob/master/getIssueFromTransition.groovy">getIssueFromTransition.groovy</a></td> <td>Скрипт получения текущего запроса</td>
   </tr>
   <tr>
